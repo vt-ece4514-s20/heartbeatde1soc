@@ -5,6 +5,7 @@ module heartbeatde1soc(
 	input 		          		CLOCK_50,
 	input 		     [3:0]		KEY,
 	output		     [9:0]		LEDR
+
   );
 
 reg [9:0] ledr_reg;
