@@ -9,7 +9,8 @@ module heartbeatde1soctb;
 
   wire [9:0] LEDR;
   reg [3:0] KEY;
-
+  wire dangling;
+  
   heartbeatde1soc dut(CLOCK2_50,
   	                  CLOCK3_50,
   	                  CLOCK4_50,
