@@ -10,7 +10,7 @@ module heartbeatde1soc(
 reg [9:0] ledr_reg;
 reg [23:0] count_reg;
 
-wire       tick;
+wire       tick ;
 
 always @(posedge CLOCK_50)
   if (KEY[0] == 1'b0)
